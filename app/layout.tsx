@@ -1,19 +1,19 @@
 import type { Metadata } from 'next'
-import { Playfair_Display, Inter } from 'next/font/google'
+import { Cormorant_Garamond, DM_Sans } from 'next/font/google'
 import './globals.css'
 import ScrollReveal from '@/components/ScrollReveal'
 
-const playfair = Playfair_Display({
-  weight: ['400', '600', '700'],
+const cormorant = Cormorant_Garamond({
+  weight: ['300', '400', '600'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
-  variable: '--font-playfair',
+  variable: '--font-cormorant',
 })
 
-const inter = Inter({
-  weight: ['400', '500', '600', '700'],
+const dmSans = DM_Sans({
+  weight: ['400', '500', '700'],
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-dm-sans',
 })
 
 export const metadata: Metadata = {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="id" className={`${playfair.variable} ${inter.variable}`}>
+    <html lang="id" className={`${cormorant.variable} ${dmSans.variable}`}>
       <body>
         <div className="site-shell">
           {children}
