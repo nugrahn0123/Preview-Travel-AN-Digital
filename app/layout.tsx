@@ -1,19 +1,19 @@
 import type { Metadata } from 'next'
-import { DM_Serif_Display, Space_Grotesk } from 'next/font/google'
+import { Playfair_Display, Inter } from 'next/font/google'
 import './globals.css'
 import ScrollReveal from '@/components/ScrollReveal'
 
-const dmSerif = DM_Serif_Display({
-  weight: ['400'],
+const playfair = Playfair_Display({
+  weight: ['400', '600', '700'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
-  variable: '--font-dm-serif',
+  variable: '--font-playfair',
 })
 
-const spaceGrotesk = Space_Grotesk({
-  weight: ['400', '500', '700'],
+const inter = Inter({
+  weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
-  variable: '--font-space-grotesk',
+  variable: '--font-inter',
 })
 
 export const metadata: Metadata = {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="id" className={`${dmSerif.variable} ${spaceGrotesk.variable}`}>
+    <html lang="id" className={`${playfair.variable} ${inter.variable}`}>
       <body>
         <div className="site-shell">
           {children}
