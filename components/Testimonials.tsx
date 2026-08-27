@@ -1,12 +1,22 @@
 const quotes = [
   {
     text: '"Dari visa sampai rundown harian, semuanya rapi. Tim kami tinggal datang dan menikmati acara."',
-    cite: '- Nadya, HR Manager',
+    cite: '- Nadya, HR Manager · Jakarta',
     delay: '',
   },
   {
     text: '"Saya suka karena jadwal fleksibel, tapi tetap disiplin waktu. Liburan keluarga jadi tenang."',
-    cite: '- Raka, Entrepreneur',
+    cite: '- Raka, Entrepreneur · Surabaya',
+    delay: 'delay-1',
+  },
+  {
+    text: '"Paket Europe-nya luar biasa — 5 kota, nol ribet. Semua sudah tersusun dan kami tinggal menikmati."',
+    cite: '- Dian, Marketing Director · Bandung',
+    delay: '',
+  },
+  {
+    text: '"Corporate retreat di Lombok jadi momen terbaik tim kami tahun ini. Profesional dan tepat waktu."',
+    cite: '- Budi, GM Operations · Bali',
     delay: 'delay-1',
   },
 ]

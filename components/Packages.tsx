@@ -4,6 +4,7 @@ const packages = [
     alt: 'Resort mewah di Bali dengan kolam renang',
     title: 'Luxury Escape Bali 4D3N',
     desc: 'Private transport, resort beachfront, spa session, dan aktivitas premium.',
+    price: 'Rp 8.500.000',
     tags: ['Private Trip', 'All-in Service'],
     delay: '',
   },
@@ -12,6 +13,7 @@ const packages = [
     alt: 'Pemandangan kanal dan arsitektur klasik Eropa',
     title: 'Europe Signature 10D9N',
     desc: 'Rute efisien 5 kota populer Eropa dengan jadwal seimbang antara tur dan free time.',
+    price: 'Rp 32.500.000',
     tags: ['Best Seller', 'Visa Assistance'],
     delay: 'delay-1',
   },
@@ -20,6 +22,7 @@ const packages = [
     alt: 'Kegiatan team building di area pantai',
     title: 'Corporate Retreat Lombok 3D2N',
     desc: 'Paket team bonding plus meeting support untuk produktivitas tim yang lebih solid.',
+    price: 'Rp 5.900.000',
     tags: ['Corporate', 'Custom Agenda'],
     delay: 'delay-2',
   },
@@ -39,6 +42,13 @@ export default function Packages() {
             <img className="card-image" src={pkg.img} alt={pkg.alt} loading="lazy" />
             <h3>{pkg.title}</h3>
             <p>{pkg.desc}</p>
+            <div className="card-price-row">
+              <div>
+                <small className="card-price-label">Mulai dari</small>
+                <strong className="card-price">{pkg.price}</strong>
+              </div>
+              <a href="#konsultasi" className="btn btn-small">Tanya Jadwal</a>
+            </div>
             <div className="tag-row">
               {pkg.tags.map((tag) => (
                 <span key={tag}>{tag}</span>

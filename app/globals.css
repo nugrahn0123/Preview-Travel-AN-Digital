@@ -408,6 +408,32 @@ h1 {
 	margin-top: 1.1rem;
 }
 
+.card-price-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	gap: 1rem;
+	margin-top: 1.3rem;
+	padding-top: 1.1rem;
+	border-top: 1px solid var(--line);
+}
+
+.card-price-label {
+	display: block;
+	font-size: 0.68rem;
+	color: var(--muted);
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+}
+
+.card-price {
+	display: block;
+	font-size: 1.2rem;
+	font-family: var(--font-cormorant), serif;
+	color: var(--brand);
+	font-weight: 600;
+}
+
 .tag-row span {
 	border: 1px solid var(--line);
 	color: var(--muted);
@@ -422,11 +448,19 @@ h1 {
 /* ─── Features ─── */
 .features {
 	display: grid;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
+	grid-template-columns: repeat(4, minmax(0, 1fr));
 	gap: 1.5rem;
 }
 
 .feature { border-top: 2px solid var(--brand); border-radius: 0 0 4px 4px; }
+
+.feature-icon {
+	display: block;
+	font-size: 1.4rem;
+	color: var(--brand);
+	margin-bottom: 0.8rem;
+	line-height: 1;
+}
 
 /* ─── Gallery ─── */
 .destination-gallery { padding-top: 0; }
@@ -660,7 +694,15 @@ blockquote cite {
 
 	.hero, .cta-band { grid-template-columns: 1fr; gap: 2rem; }
 
-	.cards, .features, .testimonials .quotes, .gallery-grid {
+	.cards, .gallery-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.features {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.testimonials .quotes {
 		grid-template-columns: 1fr;
 	}
 
