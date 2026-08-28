@@ -12,6 +12,10 @@
 
 * { box-sizing: border-box; }
 
+html {
+	scroll-behavior: smooth;
+}
+
 html, body { margin: 0; padding: 0; }
 
 body {
@@ -79,9 +83,22 @@ body {
 	font-size: 0.88rem;
 	font-weight: 500;
 	transition: color 0.2s;
+	position: relative;
+}
+
+.nav a::after {
+	content: '';
+	position: absolute;
+	left: 0; right: 0; bottom: -3px;
+	height: 1.5px;
+	background: var(--brand);
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform 0.25s ease;
 }
 
 .nav a:hover { color: var(--ink); }
+.nav a:hover::after { transform: scaleX(1); }
 
 .menu-toggle { display: none; }
 
@@ -107,6 +124,7 @@ body {
 .btn:hover {
 	background: var(--brand-dark);
 	transform: translateY(-1px);
+	box-shadow: 0 6px 20px rgba(191, 67, 24, 0.32);
 }
 
 .btn-small {
