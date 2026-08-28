@@ -1,4 +1,4 @@
-const partners = ['Skyline Group', 'Mandala Edu', 'Ruang Cipta', 'Evergreen Corp', 'Nusa Venture']
+const partners = ['Skyline Group', 'Mandala Edu', 'Ruang Cipta', 'Evergreen Corp', 'Nusa Venture', 'Artha Prima']
 
 export default function Partners() {
   return (
