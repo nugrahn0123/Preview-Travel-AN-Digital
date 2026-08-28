@@ -18,7 +18,21 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: 'Arunika Travel | Jelajah Tanpa Ribet',
-  description: 'Landing page bisnis travel untuk paket liburan domestik dan internasional dengan layanan premium.',
+  description:
+    'Trip planner profesional untuk keluarga & korporat. Itinerary custom, hotel strategis, dan handling dokumen oleh tim berpengalaman.',
+  openGraph: {
+    title: 'Arunika Travel | Jelajah Tanpa Ribet',
+    description:
+      'Trip planner profesional untuk keluarga & korporat. Itinerary custom, hotel strategis, dan handling dokumen.',
+    type: 'website',
+    locale: 'id_ID',
+    siteName: 'Arunika Travel',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Arunika Travel | Jelajah Tanpa Ribet',
+    description: 'Trip planner profesional untuk keluarga & korporat.',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
