@@ -15,6 +15,7 @@ export default function Header() {
       <nav className={`nav${menuOpen ? ' nav-open' : ''}`}>
         <Link href="#paket">Paket</Link>
         <Link href="#keunggulan">Keunggulan</Link>
+        <Link href="#galeri">Galeri</Link>
         <Link href="#testimoni">Testimoni</Link>
         <Link href="#faq">FAQ</Link>
       </nav>
@@ -23,6 +24,7 @@ export default function Header() {
         className="menu-toggle"
         onClick={() => setMenuOpen(!menuOpen)}
         aria-label="Buka menu navigasi"
+        aria-expanded={menuOpen}
       >
         Menu
       </button>

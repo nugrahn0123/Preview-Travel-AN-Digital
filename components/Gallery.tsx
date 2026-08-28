@@ -24,7 +24,7 @@ const items = [
 
 export default function Gallery() {
   return (
-    <section className="section container destination-gallery">
+    <section className="section container destination-gallery" id="galeri">
       <div className="section-head reveal">
         <p className="kicker">Inspirasi visual</p>
         <h2>Destinasi yang siap membawa pengalaman baru untuk Anda.</h2>
