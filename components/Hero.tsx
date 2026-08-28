@@ -16,11 +16,11 @@ export default function Hero() {
         </div>
         <div className="mini-stats">
           <article>
-            <h3>6.500+</h3>
+            <h3>7.200+</h3>
             <p>Traveler puas</p>
           </article>
           <article>
-            <h3>38</h3>
+            <h3>42</h3>
             <p>Negara tujuan</p>
           </article>
           <article>
