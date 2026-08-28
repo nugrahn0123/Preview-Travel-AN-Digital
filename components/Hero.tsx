@@ -4,6 +4,7 @@ export default function Hero() {
   return (
     <section className="hero container">
       <div className="hero-copy reveal">
+        <p className="trust-badge">★ Terpercaya sejak 2018 &nbsp;·&nbsp; IATA Certified</p>
         <p className="kicker">Trip planner tepercaya untuk keluarga &amp; korporat</p>
         <h1>Wujudkan perjalanan impian yang terukur, nyaman, dan berkelas.</h1>
         <p className="lead">

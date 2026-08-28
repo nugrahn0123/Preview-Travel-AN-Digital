@@ -180,6 +180,21 @@ body {
 	letter-spacing: 0.22em;
 }
 
+.trust-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	margin: 0 0 0.9rem;
+	padding: 0.32rem 0.8rem;
+	border: 1px solid var(--line);
+	border-radius: 100px;
+	background: var(--surface);
+	font-size: 0.72rem;
+	font-weight: 600;
+	color: var(--muted);
+	letter-spacing: 0.04em;
+}
+
 h1, h2, h3 { margin: 0; line-height: 1.05; }
 
 h1, h2 { font-family: var(--font-cormorant), serif; }
