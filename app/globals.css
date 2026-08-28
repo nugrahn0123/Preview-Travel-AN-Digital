@@ -631,6 +631,37 @@ blockquote cite {
 
 .lead-form input::placeholder { color: rgba(240, 232, 220, 0.3); }
 
+.lead-form-textarea {
+	border: 1px solid rgba(255,255,255,0.12);
+	border-radius: 4px;
+	padding: 0.78rem 1rem;
+	font: inherit;
+	font-size: 0.9rem;
+	background: rgba(255,255,255,0.06);
+	color: #f0e8dc;
+	transition: border-color 0.2s;
+	resize: vertical;
+	min-height: 80px;
+}
+
+.lead-form-textarea:focus {
+	outline: none;
+	border-color: var(--accent);
+}
+
+.lead-form-textarea::placeholder { color: rgba(240, 232, 220, 0.3); }
+
+.form-success {
+	padding: 2rem;
+	border: 1px solid rgba(200, 134, 42, 0.4);
+	border-radius: 6px;
+	background: rgba(200, 134, 42, 0.08);
+	color: var(--accent);
+	font-weight: 600;
+	font-size: 0.95rem;
+	line-height: 1.6;
+}
+
 .lead-form .btn { margin-top: 0.8rem; }
 
 /* ─── FAQ ─── */
