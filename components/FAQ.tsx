@@ -14,6 +14,11 @@ const faqs = [
     a: 'Untuk paket grup tersedia tour leader. Paket private dapat menambahkan local guide sesuai kebutuhan.',
     delay: 'delay-2',
   },
+  {
+    q: 'Berapa lama waktu persiapan yang dibutuhkan?',
+    a: 'Idealnya 2–4 minggu sebelum keberangkatan. Namun kami juga terbiasa menangani trip mendadak dalam 7 hari.',
+    delay: '',
+  },
 ]
 
 export default function FAQ() {
