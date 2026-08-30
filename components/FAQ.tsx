@@ -19,6 +19,11 @@ const faqs = [
     a: 'Idealnya 2–4 minggu sebelum keberangkatan. Namun kami juga terbiasa menangani trip mendadak dalam 7 hari.',
     delay: '',
   },
+  {
+    q: 'Bagaimana kebijakan pembatalan dan refund?',
+    a: 'Pembatalan lebih dari 14 hari sebelum keberangkatan mendapat refund penuh DP. Kurang dari 7 hari dikenakan biaya pembatalan 50%. Kami selalu prioritaskan solusi terbaik sesuai kondisi.',
+    delay: 'delay-1',
+  },
 ]
 
 export default function FAQ() {
