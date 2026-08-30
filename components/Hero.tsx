@@ -28,6 +28,10 @@ export default function Hero() {
             <h3>4.9/5</h3>
             <p>Rating layanan</p>
           </article>
+          <article>
+            <h3>12 Thn</h3>
+            <p>Pengalaman</p>
+          </article>
         </div>
       </div>
       <div className="hero-media reveal delay-1">
