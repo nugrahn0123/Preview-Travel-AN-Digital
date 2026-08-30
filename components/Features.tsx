@@ -2,26 +2,26 @@ const features = [
   {
     icon: '✦',
     title: 'Itinerary Berbasis Data',
-    desc: 'Rute dirancang dari tren trafik, cuaca, dan preferensi wisatawan agar waktu lebih efisien.',
+    desc: 'Rute disusun berdasarkan tren trafik, peak season, dan preferensi wisatawan — bukan template generik.',
     delay: '',
   },
   {
     icon: '◎',
     title: 'Travel Concierge 24/7',
-    desc: 'Tim support siap bantu perubahan mendadak, emergency handling, hingga rekomendasi lokal.',
+    desc: 'Tim standby di WhatsApp dan telepon untuk perubahan jadwal, darurat, hingga rekomendasi restoran lokal.',
     delay: 'delay-1',
   },
   {
     icon: '◆',
-    title: 'Harga Jelas Tanpa Biaya Tersembunyi',
-    desc: 'Rincian biaya ditampilkan sejak awal agar keputusan Anda nyaman dan minim risiko.',
+    title: 'Harga Transparan',
+    desc: 'Invoice detail sebelum DP. Tidak ada biaya tambahan kejutan setelah Anda setuju.',
     delay: 'delay-2',
   },
   {
     icon: '→',
     title: 'Dokumen & Visa Handling',
-    desc: 'Pengurusan visa, asuransi perjalanan, dan dokumen penting lain ditangani tim berpengalaman.',
-    delay: 'delay-2',
+    desc: 'Visa, asuransi perjalanan, dan dokumen keberangkatan diurus lengkap — Anda hanya perlu foto dan KTP.',
+    delay: 'delay-3',
   },
 ]
 
