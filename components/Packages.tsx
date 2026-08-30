@@ -32,8 +32,8 @@ export default function Packages() {
   return (
     <section className="section container" id="paket">
       <div className="section-head reveal">
-        <p className="kicker">Paket unggulan</p>
-        <h2>Pilih pengalaman yang sesuai gaya perjalanan Anda.</h2>
+        <p className="kicker">Paket unggulan kami</p>
+        <h2>Dari Bali hingga Eropa — semua sudah kami rancang untuk Anda.</h2>
       </div>
       <div className="cards">
         {packages.map((pkg) => (
