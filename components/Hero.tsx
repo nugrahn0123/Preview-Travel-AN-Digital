@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="hero-copy reveal">
         <p className="trust-badge">★ Terpercaya sejak 2018 &nbsp;·&nbsp; IATA Certified</p>
         <p className="kicker">Trip planner tepercaya untuk keluarga &amp; korporat</p>
-        <h1>Wujudkan perjalanan impian yang terukur, nyaman, dan berkelas.</h1>
+        <h1>Perjalanan impian Anda, dieksekusi sampai detail terkecil.</h1>
         <p className="lead">
           Dari itinerary anti-ribet, pemesanan hotel strategis, sampai handling dokumen perjalanan,
           semua ditangani tim profesional agar Anda tinggal fokus menikmati momen.
