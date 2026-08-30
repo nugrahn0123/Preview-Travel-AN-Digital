@@ -3,21 +3,21 @@ const items = [
     src: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=80',
     alt: 'Pemandangan kota Tokyo di malam hari',
     title: 'Tokyo Night Pulse',
-    desc: 'Energi kota modern dengan itinerary yang tetap nyaman.',
+    desc: 'Kota yang tidak pernah tidur — itinerary kami pastikan Anda menikmati setiap momen.',
     delay: '',
   },
   {
     src: 'https://images.unsplash.com/photo-1531973576160-7125cd663d86?auto=format&fit=crop&w=1200&q=80',
     alt: 'Panorama pegunungan Swiss dan danau',
     title: 'Swiss Alpine Calm',
-    desc: 'Landscape dramatis untuk liburan berkelas dan rileks.',
+    desc: 'Salju, danau, dan udara bersih — pengalaman yang sulit diulang tanpa panduan yang tepat.',
     delay: 'delay-1',
   },
   {
     src: 'https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?auto=format&fit=crop&w=1200&q=80',
     alt: 'Pantai Bali dengan sunset keemasan',
     title: 'Bali Sunset Story',
-    desc: 'Momen hangat untuk keluarga, pasangan, dan corporate retreat.',
+    desc: 'Sore di tepi laut dengan spa, sunset cruise, dan momen tenang bersama orang-orang terkasih.',
     delay: 'delay-2',
   },
 ]
@@ -27,7 +27,7 @@ export default function Gallery() {
     <section className="section container destination-gallery" id="galeri">
       <div className="section-head reveal">
         <p className="kicker">Inspirasi visual</p>
-        <h2>Destinasi yang siap membawa pengalaman baru untuk Anda.</h2>
+        <h2>Tiga destinasi, tiga cerita — mana yang memanggil Anda?</h2>
       </div>
       <div className="gallery-grid">
         {items.map((item) => (
