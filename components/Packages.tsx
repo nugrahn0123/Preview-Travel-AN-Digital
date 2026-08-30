@@ -3,7 +3,7 @@ const packages = [
     img: 'https://images.unsplash.com/photo-1602002418082-dd4a76f7f7da?auto=format&fit=crop&w=900&q=80',
     alt: 'Resort mewah di Bali dengan kolam renang',
     title: 'Luxury Escape Bali 4D3N',
-    desc: 'Private transport, resort beachfront, spa session, dan aktivitas premium.',
+    desc: 'Villa private atau resort beachfront pilihan, spa one-hour, sunset cruise, dan private driver sepanjang perjalanan.',
     price: 'Rp 8.500.000',
     tags: ['Private Trip', 'All-in Service'],
     delay: '',
