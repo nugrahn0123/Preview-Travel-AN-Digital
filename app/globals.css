@@ -541,7 +541,11 @@ h1 {
 	bottom: 1.4rem;
 	color: #fff;
 	z-index: 1;
+	transform: translateY(6px);
+	transition: transform 0.4s ease;
 }
+
+.gallery-item:hover .gallery-caption { transform: translateY(0); }
 
 .gallery-caption h3 {
 	font-size: 1.35rem;
