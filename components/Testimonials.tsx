@@ -31,6 +31,7 @@ export default function Testimonials() {
       <div className="quotes">
         {quotes.map((q) => (
           <blockquote key={q.cite} className={`reveal${q.delay ? ' ' + q.delay : ''}`}>
+            <p className="stars">★★★★★</p>
             {q.text}
             <cite>{q.cite}</cite>
           </blockquote>

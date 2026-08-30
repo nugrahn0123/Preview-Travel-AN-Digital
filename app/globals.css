@@ -593,6 +593,14 @@ blockquote cite {
 	text-transform: uppercase;
 }
 
+.stars {
+	margin: 0 0 0.8rem;
+	font-style: normal;
+	font-size: 0.85rem;
+	color: var(--accent);
+	letter-spacing: 0.1em;
+}
+
 /* ─── CTA band ─── */
 .cta-band {
 	display: grid;
