@@ -26,7 +26,7 @@ export default function Testimonials() {
     <section className="section container testimonials" id="testimoni">
       <div className="section-head reveal">
         <p className="kicker">Testimoni</p>
-        <h2>Yang mereka rasakan setelah trip bersama kami.</h2>
+        <h2>Lebih dari 7.000 traveler sudah pulang dengan cerita terbaik mereka.</h2>
       </div>
       <div className="quotes">
         {quotes.map((q) => (
