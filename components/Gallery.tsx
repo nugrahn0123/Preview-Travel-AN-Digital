@@ -20,6 +20,13 @@ const items = [
     desc: 'Sore di tepi laut dengan spa, sunset cruise, dan momen tenang bersama orang-orang terkasih.',
     delay: 'delay-2',
   },
+  {
+    src: 'https://images.unsplash.com/photo-1539020140153-e479b8c22e70?auto=format&fit=crop&w=1200&q=80',
+    alt: 'Gang-gang berwarna biru kota Chefchaouen, Maroko',
+    title: 'Morocco Blue Medina',
+    desc: 'Kota biru yang menawan — lorong-lorong Chefchaouen dan pasar Marrakech yang penuh warna.',
+    delay: '',
+  },
 ]
 
 export default function Gallery() {
