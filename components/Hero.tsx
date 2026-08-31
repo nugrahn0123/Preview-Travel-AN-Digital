@@ -32,6 +32,10 @@ export default function Hero() {
             <h3>12 Thn</h3>
             <p>Pengalaman</p>
           </article>
+          <article>
+            <h3>120+</h3>
+            <p>Destinasi tersedia</p>
+          </article>
         </div>
       </div>
       <div className="hero-media reveal delay-1">
