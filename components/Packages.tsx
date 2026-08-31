@@ -26,6 +26,15 @@ const packages = [
     tags: ['Corporate', 'Custom Agenda'],
     delay: 'delay-2',
   },
+  {
+    img: 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=900&q=80',
+    alt: 'Pemandangan Cappadocia Turki dengan balon udara',
+    title: 'Turkey Dream 8D7N',
+    desc: 'Istanbul, Cappadocia naik balon, Pamukkale, dan Efesus — paket lengkap dengan penerbangan langsung dari Jakarta.',
+    price: 'Rp 24.900.000',
+    tags: ['New!', 'Direct Flight'],
+    delay: 'delay-3',
+  },
 ]
 
 export default function Packages() {
