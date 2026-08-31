@@ -51,7 +51,7 @@ export default function Hero() {
           <p className="card-top">Paket Paling Dicari</p>
           <h2>Japan Golden Route 7D6N</h2>
           <ul>
-            <li>Tokyo · Fuji · Kyoto · Osaka</li>
+            <li>Tokyo · Fuji · Nara · Kyoto · Osaka</li>
             <li>Hotel bintang 4 + breakfast</li>
             <li>Guide berbahasa Indonesia</li>
             <li>Airport transfer & JR Pass</li>
