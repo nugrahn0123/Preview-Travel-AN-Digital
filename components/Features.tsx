@@ -23,6 +23,12 @@ const features = [
     desc: 'Visa, asuransi perjalanan, dan dokumen keberangkatan diurus lengkap — Anda hanya perlu foto dan KTP.',
     delay: 'delay-3',
   },
+  {
+    icon: '✓',
+    title: 'Jaminan Kepuasan 100%',
+    desc: 'Tidak puas? Kami revisi itinerary tanpa biaya tambahan hingga Anda benar-benar siap berangkat.',
+    delay: '',
+  },
 ]
 
 export default function Features() {
