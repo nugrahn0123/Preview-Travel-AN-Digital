@@ -24,6 +24,8 @@ export default function ContactForm() {
       <input id="nama" type="text" placeholder="Nama lengkap" required />
       <label htmlFor="kontak">Nomor WhatsApp</label>
       <input id="kontak" type="tel" placeholder="08xxxxxxxxxx" required />
+      <label htmlFor="email">Email</label>
+      <input id="email" type="email" placeholder="nama@email.com" />
       <label htmlFor="tujuan">Destinasi favorit</label>
       <input id="tujuan" type="text" placeholder="Contoh: Jepang, Bali, Turki" />
       <label htmlFor="pesan">Ceritakan kebutuhan Anda</label>
