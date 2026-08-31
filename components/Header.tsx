@@ -18,6 +18,7 @@ export default function Header() {
         <Link href="#galeri">Galeri</Link>
         <Link href="#testimoni">Testimoni</Link>
         <Link href="#faq">FAQ</Link>
+        <Link href="#blog">Blog</Link>
       </nav>
       <Link className="btn btn-small" href="#konsultasi">Konsultasi Gratis</Link>
       <button
