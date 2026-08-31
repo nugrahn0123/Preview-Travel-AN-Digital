@@ -6,6 +6,7 @@ export default function Footer() {
         <p style={{ margin: '0.25rem 0 0' }}>© 2026 · Jelajah tanpa ribet, hasil maksimal.</p>
       </div>
       <div style={{ display: 'flex', gap: '1.2rem', alignItems: 'center' }}>
+        <a href="tel:+6281234567890">+62 812-3456-7890</a>
         <a href="mailto:hello@arunikatravel.id">hello@arunikatravel.id</a>
         <a href="#">Instagram</a>
         <a href="#">WhatsApp</a>
