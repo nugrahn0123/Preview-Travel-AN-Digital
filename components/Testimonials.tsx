@@ -19,6 +19,11 @@ const quotes = [
     cite: '- Budi, GM Operations · Bali',
     delay: 'delay-1',
   },
+  {
+    text: '"Visa Schengen dibantu dari awal sampai akhir, tidak ada yang terlewat. Berangkat dengan tenang."',
+    cite: '- Sinta, Dosen · Yogyakarta',
+    delay: '',
+  },
 ]
 
 export default function Testimonials() {
