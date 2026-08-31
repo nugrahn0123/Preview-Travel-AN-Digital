@@ -24,6 +24,11 @@ const faqs = [
     a: 'Pembatalan lebih dari 14 hari sebelum keberangkatan mendapat refund penuh DP. Kurang dari 7 hari dikenakan biaya pembatalan 50%. Kami selalu prioritaskan solusi terbaik sesuai kondisi.',
     delay: 'delay-1',
   },
+  {
+    q: 'Apakah tersedia paket khusus perusahaan atau instansi?',
+    a: 'Ya. Kami menyediakan paket corporate retreat, gathering, dan study tour dengan proposal, invoice resmi, serta laporan kegiatan. Hubungi kami untuk penawaran custom sesuai skala dan budget perusahaan Anda.',
+    delay: 'delay-2',
+  },
 ]
 
 export default function FAQ() {
