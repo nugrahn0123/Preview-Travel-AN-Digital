@@ -17,21 +17,21 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Arunika Travel | Jelajah Tanpa Ribet',
+  title: 'Arunika Travel | Trip Planner Profesional Indonesia',
   description:
-    'Trip planner profesional untuk keluarga & korporat. Itinerary custom, hotel strategis, dan handling dokumen oleh tim berpengalaman.',
+    'Jasa trip planner terpercaya untuk wisata keluarga, honeymoon, dan korporat. Itinerary custom, visa handling, hotel bintang, dan tim concierge 24/7.',
   openGraph: {
-    title: 'Arunika Travel | Jelajah Tanpa Ribet',
+    title: 'Arunika Travel | Trip Planner Profesional Indonesia',
     description:
-      'Trip planner profesional untuk keluarga & korporat. Itinerary custom, hotel strategis, dan handling dokumen.',
+      'Jasa trip planner terpercaya untuk wisata keluarga, honeymoon, dan korporat. Itinerary custom, visa handling, hotel bintang.',
     type: 'website',
     locale: 'id_ID',
     siteName: 'Arunika Travel',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Arunika Travel | Jelajah Tanpa Ribet',
-    description: 'Trip planner profesional untuk keluarga & korporat.',
+    title: 'Arunika Travel | Trip Planner Profesional Indonesia',
+    description: 'Jasa trip planner terpercaya untuk wisata keluarga, honeymoon, dan korporat.',
   },
 }
 
